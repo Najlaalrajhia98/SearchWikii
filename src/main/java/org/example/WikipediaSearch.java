@@ -22,7 +22,12 @@ class WikipediaSearch {
     public void search(String[] args) {
 
         try {
-
+            /**
+             * URL encoding converts characters into a format that can be transmitted over the Internet.
+             * URLs can only be sent over the Internet using the ASCII character-set.
+             * Since URLs often contain characters outside the ASCII set, the URL has to be converted into a valid ASCII format
+             * URL encoding replaces unsafe ASCII characters with a "%" followed by two hexadecimal digits
+             */
             String encodedTopic = URLEncoder.encode(args[0].split(":")[1], "UTF-8");
 
             HttpUrl.Builder urlBuilder = HttpUrl.parse(WIKIPEDIA_API_BASE_URL).newBuilder();
@@ -53,7 +58,7 @@ class WikipediaSearch {
                     for (JsonElement result : searchResults) {
                         JsonObject resultObject = result.getAsJsonObject();
                         String title = resultObject.get("title").getAsString();
-                        String snippet = resultObject.get("snippet").getAsString();
+                        String snippet = resultObject.get("snippet").getAsString().replaceAll("<.*?\\>","");
                         System.out.println("Title: " + title);
                         System.out.println("Snippet: " + snippet + "\n");
                     }
