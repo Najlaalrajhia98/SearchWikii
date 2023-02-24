@@ -6,7 +6,7 @@
   },
   "query": {
     "searchinfo": {
-      "totalhits": 35400,
+      "totalhits": 35459,
       "suggestion": "omar",
       "suggestionsnippet": "omar"
     },
@@ -15,10 +15,10 @@
         "ns": 0,
         "title": "Oman",
         "pageid": 22316,
-        "size": 192094,
-        "wordcount": 20091,
+        "size": 192022,
+        "wordcount": 20101,
         "snippet": "﻿21°N 57°E﻿ / 21; 57 \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e (/oʊˈmɑːn/ (listen) oh-MAHN; Arabic: عُمَان, Urdu: عمانʿUmān [ʕʊˈmaːn]), officially the Sultanate of \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e (Arabic: سلْطنةُ عُمان",
-        "timestamp": "2023-02-09T21:04:38Z"
+        "timestamp": "2023-02-22T01:13:38Z"
       },
       {
         "ns": 0,
@@ -31,6 +31,15 @@
       },
       {
         "ns": 0,
+        "title": "Muscat",
+        "pageid": 57053,
+        "size": 48742,
+        "wordcount": 5098,
+        "snippet": "Masqaṭ pronounced [ˈmasqatˤ]) is the capital and most populated city in \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e. It is the seat of the Governorate of Muscat. According to the National Centre",
+        "timestamp": "2023-02-19T13:35:46Z"
+      },
+      {
+        "ns": 0,
         "title": "Oman Air",
         "pageid": 1593974,
         "size": 25624,
@@ -40,48 +49,21 @@
       },
       {
         "ns": 0,
-        "title": "Politics of Oman",
-        "pageid": 22320,
-        "size": 4747,
-        "wordcount": 511,
-        "snippet": "The Politics of \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e take place in a framework of an absolute monarchy, where the Sultan of \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e is both head of state and head of government. The Sultan",
-        "timestamp": "2022-09-10T01:33:28Z"
-      },
-      {
-        "ns": 0,
-        "title": "Muscat",
-        "pageid": 57053,
-        "size": 48741,
-        "wordcount": 5098,
-        "snippet": "Masqaṭ pronounced [ˈmasqatˤ]) is the capital and most populated city in \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e. It is the seat of the Governorate of Muscat. According to the National Centre",
-        "timestamp": "2023-02-01T16:33:05Z"
-      },
-      {
-        "ns": 0,
         "title": "Gulf of Oman",
         "pageid": 12896,
-        "size": 11811,
-        "wordcount": 905,
-        "snippet": "The Gulf of \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e or Sea of \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e (Arabic: خليج عمان khalīj ʿumān; Persian: دریای عمان daryâ-ye \u003cspan class\u003d\"searchmatch\"\u003eomân\u003c/span\u003e), Gulf of \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e is a gulf that connects the Arabian",
-        "timestamp": "2023-02-12T08:41:41Z"
+        "size": 11982,
+        "wordcount": 923,
+        "snippet": "The Gulf of \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e or Sea of \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e (Arabic: خليج عمان khalīj ʿumān; Persian: دریای عمان daryâ-ye \u003cspan class\u003d\"searchmatch\"\u003eomân\u003c/span\u003e), also known as Gulf of Makran or Sea of Makran (Arabic:",
+        "timestamp": "2023-02-23T03:56:32Z"
       },
       {
         "ns": 0,
-        "title": "List of rulers of Oman",
-        "pageid": 405325,
-        "size": 18565,
-        "wordcount": 1223,
-        "snippet": "Sultanate of \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e is the monarchical head of state and head of government of \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e. It is the most powerful position in the country. The sultans of \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e are members",
-        "timestamp": "2023-02-09T03:13:59Z"
-      },
-      {
-        "ns": 0,
-        "title": "Omani rial",
-        "pageid": 1409237,
-        "size": 16290,
-        "wordcount": 1109,
-        "snippet": "The \u003cspan class\u003d\"searchmatch\"\u003eOmani\u003c/span\u003e rial (Arabic: ريال, ISO 4217 code OMR) is the currency of \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e. It is divided into 1000 baisa (also written baiza, بيسة). From 1973 to 1986,",
-        "timestamp": "2023-01-20T15:38:14Z"
+        "title": "Muscat and Oman",
+        "pageid": 1929244,
+        "size": 16877,
+        "wordcount": 1646,
+        "snippet": "of Muscat and \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e (Arabic: سلطنة مسقط وعمان, romanized: Salṭanat Masqaṭ wa-‘Umān), also known briefly as the State of Muscat and \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e (Arabic: دولة مسقط",
+        "timestamp": "2023-02-05T09:52:18Z"
       },
       {
         "ns": 0,
@@ -94,12 +76,30 @@
       },
       {
         "ns": 0,
-        "title": "Geography of Oman",
-        "pageid": 22318,
-        "size": 23318,
-        "wordcount": 2260,
-        "snippet": "United Arab Emirates (UAE). The coast of \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e was an important part in the \u003cspan class\u003d\"searchmatch\"\u003eOmani\u003c/span\u003e empire and sultanate. \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e is located in the southeastern quarter of",
-        "timestamp": "2022-12-07T18:59:55Z"
+        "title": "Omani rial",
+        "pageid": 1409237,
+        "size": 16290,
+        "wordcount": 1109,
+        "snippet": "The \u003cspan class\u003d\"searchmatch\"\u003eOmani\u003c/span\u003e rial (Arabic: ريال, ISO 4217 code OMR) is the currency of \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e. It is divided into 1000 baisa (also written baiza, بيسة). From 1973 to 1986,",
+        "timestamp": "2023-01-20T15:38:14Z"
+      },
+      {
+        "ns": 0,
+        "title": "List of rulers of Oman",
+        "pageid": 405325,
+        "size": 18581,
+        "wordcount": 1223,
+        "snippet": "Sultanate of \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e is the monarchical head of state and head of government of \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e. It is the most powerful position in the country. The sultans of \u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e are members",
+        "timestamp": "2023-02-21T16:54:12Z"
+      },
+      {
+        "ns": 0,
+        "title": "Governorates of Oman",
+        "pageid": 690311,
+        "size": 7727,
+        "wordcount": 197,
+        "snippet": "\u003cspan class\u003d\"searchmatch\"\u003eOman\u003c/span\u003e is divided into eleven governorates (muhafazah) as of 28 October 2011. Each of the 11 governorates are divided into wilayat (provinces). Before 28",
+        "timestamp": "2023-02-07T13:30:10Z"
       }
     ]
   }

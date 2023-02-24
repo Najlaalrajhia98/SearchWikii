@@ -47,17 +47,34 @@ class WikipediaSearch {
                     // Extract the response body as a String
                     String responseBody = response.body().string();
 
-                    // Using a JSON parsing library allows the code to easily extract the relevant data from the API response and work with it in a structured way.
+                    /**
+                     * Using a JSON parsing library allows the code to easily extract the relevant data from the API response and work with it in a structured way.
+                     * the JSON response received from the Wikipedia API is first parsed as a String,
+                     * and then converted to a JsonObject using the JsonParser class provided by the Gson library.
+                     * The JsonObject represents the entire JSON response.
+                     * Next, the searchResults variable is assigned the value of the "search" array within the JsonObject.
+                     * This is accomplished by first calling getAsJsonObject("query") on the JsonObject to get the "query" object, then calling getAsJsonArray("search") on that object to get the "search" array.
+                     * Finally, the for loop iterates over each JsonElement in the searchResults array. Within the loop, each JsonElement is converted to a JsonObject using the getAsJsonObject() method.
+                     * The title and snippet properties of each search result are extracted from the JsonObject using the getAsString() method, and printed to the console
+                     * In summary, JsonObject, JsonArray, and JsonElement classes are used together to parse a JSON response, navigate through its structure, and extract the relevant data.
+                      */
                     JsonObject responseJson = JsonParser.parseString(responseBody).getAsJsonObject();
                     JsonArray searchResults = responseJson.getAsJsonObject("query").getAsJsonArray("search");
 
                     /**
-                     * @for-each used to iterate over the search results, extracts the title and snippet for each search result, and prints them to the console
-                     * the search results are represented as array of elements of json objects so to extract properties that are inside the objects we need to first cast it to a json object
+                    * a for-each loop to iterate over the search results,
+                     * and for each result, we cast the JsonElement representing the result to a JsonObject, using the getAsJsonObject() method.
+                     * This allows us to access the properties of the JSON object, such as the title and snippet properties.
                      */
                     for (JsonElement result : searchResults) {
                         JsonObject resultObject = result.getAsJsonObject();
                         String title = resultObject.get("title").getAsString();
+
+                        /**
+                         * @replaceAll() this regular expression helps to clean up the output by removing any unwanted HTML tags that may have been included in the Wikipedia search results.
+                         * So, the regular expression "<.*?\\>" matches any HTML tag, and when combined with the replaceAll() method on the snippet string, replaces all instances of HTML tags with an empty string.
+                         * This results in only the plain text content of the snippet being printed to the console.
+                         */
                         String snippet = resultObject.get("snippet").getAsString().replaceAll("<.*?\\>","");
                         System.out.println("Title: " + title);
                         System.out.println("Snippet: " + snippet + "\n");
